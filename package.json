@@ -1,0 +1,36 @@
+{
+  "name": "sample-example-polyfact-chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@polyfact/chat": "^0.1.32",
+    "@radix-ui/react-dialog": "^1.0.4",
+    "phosphor-react": "^1.4.1",
+    "polyfire-js": "^0.2.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all",
+    "last 2 versions",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "last 2 iOS versions",
+    "last 2 ChromeAndroid versions"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.9"
+  }
+}
