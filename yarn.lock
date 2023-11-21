@@ -7101,6 +7101,26 @@ polyfire-js@^0.2.12:
     uuid "^9.0.0"
     ws "^8.13.0"
 
+polyfire-js@^0.2.19:
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/polyfire-js/-/polyfire-js-0.2.19.tgz#539e7198eebbb49eaae11b05ccade8f9e5314577"
+  integrity sha512-pYtCW5db3DFvXw4xS2o9KkL7hL8b1sH6pEpvEYKR0Ui4rJQ6lfanYcOn8L/9fODcC3QcM5Dq6qdTaiNJvCkGVw==
+  dependencies:
+    "@supabase/supabase-js" "^2.31.0"
+    async-mutex "^0.4.0"
+    axios "^0.27.2"
+    buffer "^6.0.3"
+    fp-ts "^2.16.0"
+    inquirer "^9.2.10"
+    isomorphic-ws "^5.0.0"
+    js-tiktoken "^1.0.7"
+    polyfact-io-ts "^2.2.20"
+    process "^0.11.10"
+    react "^18.2.0"
+    readable-stream "^4.4.2"
+    uuid "^9.0.0"
+    ws "^8.13.0"
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"

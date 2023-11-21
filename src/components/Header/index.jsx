@@ -5,8 +5,8 @@ const StyledHeader = styled.header`
   height: 80px;
   align-items: center;
   justify-content: center;
-  background-color: ${(props) => props.bgColor || "#1a1a2e"};
-  color: ${(props) => props.textColor || "#e94560"};
+  background-color: ${(props) => props.$bgColor || "#1a1a2e"};
+  color: ${(props) => props.$textColor || "#e94560"};
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 `;
 
@@ -39,10 +39,10 @@ const LogoContainer = styled.div`
 
 export function Header({ title, bgColor, textColor, logo = "./logo.svg" }) {
   return (
-    <StyledHeader bgColor={bgColor} textColor={textColor}>
+    <StyledHeader $bgColor={bgColor} $textColor={textColor}>
       <HeaderContainer>
         <LogoContainer>
-          <img src={logo} alt={`Logo of ${title}`} />
+          <img src={logo} alt={`Logo of ${title}`} width={30} height={30} />
           <h1>{title}</h1>
         </LogoContainer>
       </HeaderContainer>
